@@ -1437,7 +1437,8 @@
     .c-history .subheadline,
     .c-history .subheadline>a[href*="/history"] {
         display: flex;
-        justify-content: center;
+        /* бред сывой кобылы - если будут баги с Кнопкой История в моб версии править тут */
+        /*justify-content: center;*/
         align-items: center;
         padding-top: 1px;
         padding-right: 0;
