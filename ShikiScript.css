@@ -14,7 +14,7 @@
 
 /* Main 1 */
 
-@import url(raw.githubusercontent.com/Kortiego/Shikitest/master/Main.css);
+@import url(https://raw.githubusercontent.com/Kortiego/Shikitest/master/Main.css);
 
 /* Main 2*/
 
@@ -25,10 +25,6 @@
 @import url(https://raw.githubusercontent.com/Kortiego/Shikitest/master/Main3.css);
 @import url(https://raw.githubusercontent.com/Kortiego/Shikitest/master/Edit.css);
 @import url(https://raw.githubusercontent.com/Kortiego/Shikitest/master/Mainmob.css);
-body:after {
-    background: transparent;
-}
-
 .l-footer:after {
     content: "*Yin Yang*";
 }
@@ -72,4 +68,39 @@ body:after {
         --popup-color: 39, 39, 39;
         --hundred: 1;
     }
+}
+
+
+/* Custom fixes
+.p-profiles .profile-head .c-brief .avatar img {
+    animation: fly 3s ease-in-out infinite;
+}
+
+@keyframes fly {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(12px);
+    }
+}*/
+
+
+/*Блок с контентом*/
+
+.l-page {
+    background: #000;
+    /* отклонение от полностью черного = черный фон у PNG*/
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+    opacity: 0.8;
+    /*полупрозрачность*/
+}
+
+
+/*Изменение фоновой картинки.*/
+
+body {
+    background: fixed url(https://lh3.googleusercontent.com/pw/ACtC-3dnfF4pzr3HZ33ru0blvn2eDx-wwi7Q1znsC-PLHgY_rabfkO3oOeOzRP8lfxRQGM4A9Wrp0HETZo5Fm8W6zDh50NFTAGU_QG2Bc9nADkRecoZ0DQmd1awGSpaRPcYMYgLiYwAmRAkK8jJLS7swH-jy=w1280-h720-no?authuser=0) no-repeat #000 !important;
+    background-size: cover !important;
 }
