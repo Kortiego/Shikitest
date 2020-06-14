@@ -1196,7 +1196,7 @@
         text-align: center;
         margin-top: 14px !important;
     }
-    .p-profiles .profile-head .c-brief .avatar img {
+    /* .p-profiles .profile-head .c-brief .avatar img {
         transform: scale(1.3) !important;
         width: 80px;
     }
@@ -1206,7 +1206,7 @@
     }
     .p-profiles .profile-head:hover .c-brief .avatar img {
         transform: scale(1.3) !important;
-    }
+    }*/
     .p-profiles .profile-head .c-brief .avatar {
         margin-top: 60px !important;
         float: none;
