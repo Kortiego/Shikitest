@@ -1222,7 +1222,8 @@
         margin-top: 12px;
     }
     .b-stats_bar a.title,
-    .b-stats_bar .title {
+    .b-stats_bar .title,
+    {
         font-size: 12px;
         margin-bottom: 3px;
         margin-left: 4px;
