@@ -1223,14 +1223,15 @@
     }
     .b-stats_bar a.title,
     .b-stats_bar .title {
-        font-size: 14px;
+        font-size: 12px;
         margin-bottom: 3px;
+        margin-left: 4px;
         position: absolute;
-        width: 91%;
+        width: 85%;
         text-align: left;
         z-index: 2;
         line-height: 38px;
-        font-size: 16px;
+        font-size: 14px;
         opacity: 0.2;
     }
     .b-stats_bar .bar {
