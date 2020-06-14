@@ -2238,7 +2238,7 @@
             transform: translateX(12px);
         }
     }
-    .p-profiles .profile-head .c-brief .avatar img:hover {
+    /*.p-profiles .profile-head .c-brief .avatar img:hover {
         animation: fly 3s ease-in-out infinite;
     }
     @keyframes fly {
@@ -2250,8 +2250,16 @@
         }
     }
     .p-profiles .profile-head:hover .c-brief .avatar img {
-        transform: scale(1.3) !important;
+        animation: fly 3s ease-in-out infinite;
     }
+    @keyframes fly {
+        0% {
+            transform: translateX(0);
+        }
+        50% {
+            transform: translateX(12px);
+        }
+    }*/
     .subheadline.m13 {
         left: 8px;
     }
