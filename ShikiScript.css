@@ -25,6 +25,10 @@
 @import url(https://raw.githubusercontent.com/Kortiego/Shikitest/master/Main3.css);
 @import url(https://raw.githubusercontent.com/Kortiego/Shikitest/master/Edit.css);
 @import url(https://raw.githubusercontent.com/Kortiego/Shikitest/master/Mainmob.css);
+body:after {
+    background: transparent;
+}
+
 .l-footer:after {
     content: "*Yin Yang*";
 }
@@ -69,18 +73,3 @@
         --hundred: 1;
     }
 }
-
-
-/* Custom fixes
-.p-profiles .profile-head .c-brief .avatar img {
-    animation: fly 3s ease-in-out infinite;
-}
-
-@keyframes fly {
-    0% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(12px);
-    }
-}*/
