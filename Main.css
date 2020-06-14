@@ -116,13 +116,13 @@ body {
 }
 
 .css {
-    color: transparent;
+    color: #010101cc;
 }
 
 html {
     height: 100%;
     min-height: 100%;
-    background-color: transparent;
+    background-color: #151515;
 }
 
 body {
