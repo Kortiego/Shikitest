@@ -116,13 +116,13 @@ body {
 }
 
 .css {
-    color: #010101cc;
+    color: transparent;
 }
 
 html {
     height: 100%;
     min-height: 100%;
-    background-color: #151515;
+    background-color: transparent;
 }
 
 body {
@@ -2325,7 +2325,7 @@ p-userlist_comparer .comparer table a {
 .b-image .marker,
 .b-video .name {
     color: rgba(var(--light-color), var(--hundred));
-    background: rgba(var(--block-color), 0.8);
+    background: transparent;
     padding: 2px 2px 0 0;
     line-height: 12px;
     margin-left: 3px;
