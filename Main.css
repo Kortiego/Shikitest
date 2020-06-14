@@ -826,11 +826,13 @@ a.b-anime_status_tag.studio:hover {
 .b-db_entry>.c-about .additional-links .line-container>.link,
 .b-db_entry>.c-about .additional-links .line-container>a {
     color: rgba(var(--bright-color), var(--hundred));
+    background: transparent;
 }
 
 .b-db_entry>.c-about .additional-links .line-container>.link:hover,
 .b-db_entry>.c-about .additional-links .line-container>a:hover {
     color: rgba(var(--hover-color), var(--hundred));
+    background: transparent;
 }
 
 
